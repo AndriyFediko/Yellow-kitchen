@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/plate.png">
+    <title>Yellow kitchen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;700;800&family=Open+Sans:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body class="scrollOpen">
+    <div class="wrap">
+        <div class="burger__menu">
+            <div class="burger__menu-box">
+                <div class="callbox">
+                    <a href="tel:+0800111126"><img src="./img/phoneIcon.png" alt="phoneIcon"> 0800111126</a>
+                </div>
+                <time>8:00 - 22:00</time>
+                <div class="servises__box" id="deliveryScroll">Delivery info</div>
+                <div class="servises__box" id="aboutScroll">About us</div>
+                <div class="servises__box" id="RestaurantsScroll">Restaurants</div>
+                <div class="servises__box" id="SpecialitiesScroll">Specialities</div>
+                <div class="language__dropDown-container">
+                    <div class="language__dropDown">
+                        English
+                        <img id="language__dropDownArrow" src="./img/languagueArrow.png" alt="arrow">
+                    </div>
+                    <div class="language__dropDown-content__box">
+                        <ul>
+                            <li>English</li>
+                            <li>France</li>
+                            <li>Germany</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="burger__maskDisabled"></div>
+        <div class="homePage" id="homePage">
+            <div class="headerTexture"></div>
+            <header>
+                <img src="./img/Logo.png" alt="logo">
+                <nav>
+                    <div>
+                        <img id="logIn" src="./img/person.png" alt="logIn">
+                        <label for="logIn">Log in</label>
+                    </div>
+                    <div>
+                        <img id="cart" src="./img/cart.png" alt="cart">
+                        <label for="cart">0</label>
+                    </div>
+                    <div class="burger">
+                        <div class="burger__row" id="topRow"></div>
+                        <div class="burger__row" id="rowOff"></div>
+                        <div class="burger__row" id="bottomRow"></div>
+                    </div>
+                </nav>
+            </header>
+            <div class="main">
+                <div class="main__left">
+                    <h2>Your Food court at home</h2>
+                    <div class="buttons">
+                        <div>
+                            <h2>Delivery</h2>
+                            <p>Order in</p>
+                        </div>
+                        <div>
+                            <h2>Takeout</h2>
+                            <p>Grab and go</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__right">
+                    <img src="./img/plate.png" alt="salad">
+                </div>
+            </div>
+            <div class="aboutBlock">
+                <div class="aboutBlock__box">
+                    <img src="./img/timeEat.png" alt="clock">
+                    <p>delivery in all paris in less than 30 minutes</p>
+                </div>
+                <div class="aboutBlock__box">
+                    <img src="./img/delivery.png" alt="clock">
+                    <p>Free delivery from 29 euros</p>
+                </div>
+                <div class="aboutBlock__box">
+                    <img src="./img/paris.png" alt="clock">
+                    <p>Only fresh and French products</p>
+                </div>
+            </div>
+        </div>
+        <div class="RestaurantsPage" id="Restaurants">
+            <div class="main">
+                <div class="main__top">
+                    <p>Restaurants</p>
+                    <button>show all</button>
+                </div>
+                <div class="main__bottom">
+                    <div class="RestaurantsSlider">
+                        <div class="sliderCards">
+                            <button>
+                                <img src="./img/left.png" alt="arrow">
+                            </button>
+                            <article>
+                                <div class="card__img"></div>
+                                <div class="card__descriptin">
+                                    <img src="./img/burgerDlise.png" alt="restourant">
+                                </div>
+                            </article>
+                            <article>
+                                <div class="card__img"></div>
+                                <div class="card__descriptin">
+                                    <img src="./img/IlPastifigio.png" alt="restourant">
+                                </div>
+                            </article>
+                            <article>
+                                <div class="card__img"></div>
+                                <div class="card__descriptin">
+                                    <img src="./img/beliene.png" alt="restourant">
+                                </div>
+                            </article>
+                            <article>
+                                <div class="card__img"></div>
+                                <div class="card__descriptin">
+                                    <img src="./img/Bo.png" alt="restourant">
+                                </div>
+                            </article>
+                            <button>
+                                <img src="./img/left.png" alt="arrow">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nearestRestorantPage">
+            <div class="nearestRestorantPage__left">
+                <h2>Your nearest restaurants</h2>
+                <p>Each kitchen works with its own delivery area to deliver food to you as soon as possible</p>
+            </div>
+            <div class="nearestRestorantPage__right">
+                <div class="input__container">
+                    <input type="text" placeholder="Enter delivery address">
+                </div>
+                <button>Send</button>
+            </div>
+        </div>
+        <div class="specialitiesPage" id="specialities">
+            <div class="specialitiesPage__top">
+                <p>Specialities</p>
+                <button>show all</button>
+            </div>
+            <div class="specialitiesPage__bottom">
+                <button>
+                    <img src="./img/left.png" alt="arrow">
+                </button>
+                <!-- cards start -->
+                <article>
+                    <div class="card__image">
+                        <img src="./img/bagel.png" alt="burger">
+                    </div>
+                    <div class="cardDescriptin">Bagel</div>
+                </article>
+                <article>
+                    <div class="card__image">
+                        <img src="./img/burgerIcon.png" alt="burger">
+                    </div>
+                    <div class="cardDescriptin">Burger</div>
+                </article>
+                <article>
+                    <div class="card__image">
+                        <img src="./img/chicken.png" alt="burger">
+                    </div>
+                    <div class="cardDescriptin">chicken</div>
+                </article>
+                <article>
+                    <div class="card__image">
+                        <img src="./img/fish.png" alt="burger">
+                    </div>
+                    <div class="cardDescriptin">Fish</div>
+                </article>
+                <article>
+                    <div class="card__image">
+                        <img src="./img/fishnchips.png" alt="burger">
+                    </div>
+                    <div class="cardDescriptin">Fish’Chips</div>
+                </article>
+                <article>
+                    <div class="card__image">
+                        <img src="./img/vegan.png" alt="burger">
+                    </div>
+                    <div class="cardDescriptin">Salads</div>
+                </article>
+                <article>
+                    <div class="card__image">
+                        <img src="./img/pizza.png" alt="burger">
+                    </div>
+                    <div class="cardDescriptin">Pizza</div>
+                </article>
+                <article>
+                    <div class="card__image">
+                        <img src="./img/raviolli.png" alt="burger">
+                    </div>
+                    <div class="cardDescriptin">Pasta</div>
+                </article>
+                <!-- cards end  -->
+                <button>
+                    <img src="./img/left.png" alt="arrow">
+                </button>
+            </div>
+        </div>
+        <!-- statistic page start  -->
+        <div class="statisticPage">
+            <div class="statisticPage__container">
+                <div class="cardsBox">
+                    <article>1
+                        <p>kitchen</p>
+                    </article>
+                    <article>11
+                        <p>specialties</p>
+                    </article>
+                    <article>11
+                        <p>restaurants</p>
+                    </article>
+                    <article>1
+                        <p>transport costs</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <!-- statistic page end  -->
+        <!-- location page  -->
+        <div class="locationPage">
+            <div class="map">
+                <div class="locationBox">
+                    <img src="./img/loc.png" alt="locatin">
+                </div>
+                <div class="locationBox">
+                    <img src="./img/loc.png" alt="locatin">
+                </div>
+                <div class="locationBox">
+                    <img src="./img/loc.png" alt="locatin">
+                </div>
+                <div class="locationBox">
+                    <img src="./img/loc.png" alt="locatin">
+                </div>
+                <div class="locationBox">
+                    <img src="./img/loc.png" alt="locatin">
+                </div>
+                <div class="locationBox">
+                    <img src="./img/loc.png" alt="locatin">
+                </div>
+                <div class="locationBox">
+                    <img src="./img/loc.png" alt="locatin">
+                </div>
+                <div class="locationBox">
+                    <img src="./img/loc.png" alt="locatin">
+                </div>
+            </div>
+        </div>
+        <!-- location page  -->
+        <!-- instagram  -->
+        <div class="ourInstagramPage" id="instagram">
+            <div class="ourInstagramPage__title">
+                #YellowKitchens
+                <span>in instagram</span>
+            </div>
+            <div class="ourInstagramPage__main">
+                <img src="./img/street.png" alt="instagram__image">
+                <img src="./img/masterclass.png" alt="instagram__image">
+                <img src="./img/cooking.png" alt="instagram__image">
+                <img src="./img/chops.png" alt="instagram__image">
+            </div>  
+        </div>
+        <!-- instagram  -->
+        <!-- footer  -->
+        <footer>
+            <div class="footer__top">
+                <div class="company-block">
+                    <img src="./img/logoWhite.png" alt="logo">
+                    <div class="line"></div>
+                    <div class="downloadButtons-block">
+                        <img src="./img/appstore.png" alt="appstore">
+                        <img src="./img/googlePlay.png" alt="googlePlay">
+                    </div>
+                </div>
+                <div class="info-block">
+                    <ul>
+                        <li>About us</li>
+                        <li>Concept</li>
+                        <li>Franchise</li>
+                        <li>Business</li>
+                        <li>Restaurant signup</li>
+                        <li>For Investors</li>
+                    </ul>
+                    <ul>
+                        <li>Get help</li>
+                        <li>Read FAQs</li>
+                        <li>Restaurants</li>
+                        <li>Specialities</li>
+                        <li>Sign up to deliver</li>
+                        <select>
+                            <option selected>English</option>
+                            <option>France</option>
+                            <option>Germany</option>
+                        </select>
+                    </ul>
+                    <ul>
+                        <li>Contact us</li>
+                        <li>Yellow kitchen Paris 11</li>
+                        <li>69 avenue de la Republique 75011 Paris</li>
+                        <li>0800 111 126</li>
+                        <li>contact@yellowkitchens.com</li>
+                    </ul>
+                </div>
+                <div class="info-block__phoneV">
+                    <div class="dropDown" id="aboutUsDropDown">About us
+                        <img id="aboutArrow" src="./img/arrow.png" alt="arrow">
+                    </div>
+                    <div class="dropdown-content" id="aboutUsDropDown__content">
+                        <ul>
+                            <li>About us</li>
+                            <li>Concept</li>
+                            <li>Franchise</li>
+                            <li>Business</li>
+                            <li>Restaurant signup</li>
+                            <li>For Investors</li>
+                        </ul>
+                    </div>
+                    <div class="dropDown" id="HelpDropDown">Get help
+                        <img id="getHelpArrow" src="./img/arrow.png" alt="arrow">
+                    </div>
+                    <div class="dropdown-content" id="HelpDropDown__content">
+                        <ul>
+                            <li>Get help</li>
+                            <li>Read FAQs</li>
+                            <li>Restaurants</li>
+                            <li>Specialities</li>
+                            <li>Sign up to deliver</li>
+                            <select>
+                                <option selected>English</option>
+                                <option>France</option>
+                                <option>Germany</option>
+                            </select>
+                        </ul>
+                    </div>
+                    <div class="dropDown" id="ContactsDropDown">Contact us
+                        <img id="contactUsArrow" src="./img/arrow.png" alt="arrow">
+                    </div>
+                    <div class="dropdown-content" id="ContactsDropDown__content">
+                        <ul>
+                            <li>Contact us</li>
+                            <li>Yellow kitchen Paris 11</li>
+                            <li>69 avenue de la Republique 75011 Paris</li>
+                            <li>0800 111 126</li>
+                            <li>contact@yellowkitchens.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="socialNetworks">
+                    <img src="./img/insta.png" alt="instagram">
+                    <img src="./img/twitter.png" alt="twiter">
+                    <img src="./img/fb.png" alt="Facebook">
+                </div>
+                <div class="rules">
+                    <span>Privacy Policy</span>
+                    <span>Terms</span>
+                    <span>© 2020 Yellow kitchen</span>
+                </div>
+            </div>
+        </footer>
+        <!-- footer  -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
